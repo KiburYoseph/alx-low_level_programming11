@@ -1,2 +1,3 @@
 #!/bin/bash
-gcc -S -masm=intel $CFILE
+sudo apt-get install --reinstall gcc-9
+gcc -v -S -masm=intel $CFILE
