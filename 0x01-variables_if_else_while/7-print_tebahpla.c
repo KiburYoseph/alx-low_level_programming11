@@ -5,9 +5,9 @@
  */
 int main(void)
 {
-	int i = '0';
-	for (i = '0'; i <= '9'; i++)
-	putchar(i);
-	putchar('\n');
+	char c;
+
+	for (c = 'z'; c >= 'a'; --c)
+		printf("%c", c);
 	return (0);
 }
