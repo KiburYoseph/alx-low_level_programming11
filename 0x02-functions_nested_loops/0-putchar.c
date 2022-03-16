@@ -7,5 +7,5 @@ int main(void)
 {
 #include "main.h"
 
-	return(0);
+	return (0);
 }
