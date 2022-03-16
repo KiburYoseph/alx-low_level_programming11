@@ -1,4 +1,7 @@
-int print_alphabet()
+#include <stdio.h>
+void print_alphabet(void)
 {
-return (0);
+	char c;
+	for (c = 'a'; c <= 'z'; ++c)
+		printf("%c", c);
 }
