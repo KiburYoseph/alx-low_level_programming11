@@ -1,11 +1,10 @@
 #include <stdio.h>
 /**
- * main- Entry point
+ * reset_to_98- Entry point
  * Return: 0
  */
-int reset_to_98(int n)
+int reset_to_98(int *n)
 {
-	int *p = &n;
-	p = 98;
+	*n = 98;
 	return (0);
 }
