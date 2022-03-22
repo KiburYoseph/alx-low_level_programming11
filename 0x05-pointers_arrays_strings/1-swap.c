@@ -1,4 +1,8 @@
 #include <stdio.h>
+/**
+ * swap_int- Swapping
+ * Return: 0
+ */
 
 int swap_int(int *a,int *b)
 {
