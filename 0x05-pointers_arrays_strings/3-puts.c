@@ -2,7 +2,7 @@
 /**
  * _puts- Entry
  * Return: 0
- * @str: Char
+ * @c: Char
  */
 int _putchar(char c);
 
