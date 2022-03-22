@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * _strlen- String Length
- * str: Char
+ * @str: Char
  * Return: 0
  */
 
