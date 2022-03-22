@@ -5,14 +5,13 @@
  * Return: 0
  */
 
-int _strlen(char *s, char *str)
+int _strlen(char *str)
 {
 	int i = 0;
-	s = str;
-	while (*s != '\0')
+	while (*str != '\0')
 	{
 		i++;
-		s++;
+		str++;
 	}
 	return (i);
 }
