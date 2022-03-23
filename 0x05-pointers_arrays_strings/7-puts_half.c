@@ -1,10 +1,11 @@
 #include "main.h"
 /**
- * puts_half - prints last half
+ *puts_half - prints last half of a string
  *
- * @str: input
+ *@str:input
  *
- * Return : void
+ *Return:void
+ *
  */
 void puts_half(char *str)
 {
@@ -26,7 +27,7 @@ void puts_half(char *str)
 	else
 	{
 		half = (length - 1) / 2;
-		for (i = half + 1; length < 1; i++)
+		for (i = half + 1; i < length; i++)
 		{
 			_putchar(str[i]);
 		}
