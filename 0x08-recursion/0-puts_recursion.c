@@ -1,15 +1,18 @@
-#include <stdio.h>
+#include "main.h"
+
+/**
+* _puts_recursion - Recrusion
+* @s: string
+* Return: value 0
+*/
+
 void _puts_recursion(char *s)
 {
-  if (*str == '\0')
-  return;
-  printf("%c",*str);
-  _puts_recursion(str+1);
-}
-int main(void)
+if (*s == '\0')
 {
-  char str[20];
-  str[20] = {"Puts with recursion"};
-  +puts_recursion(str);
-  return (0);
+_putchar('\n');
+return;
+}
+_putchar(*s);
+_puts_recursion(s + 1);
 }
