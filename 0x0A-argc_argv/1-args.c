@@ -1,12 +1,15 @@
 #include <stdio.h>
+
 /**
-* main- function
-* @argc: att
-* @argv: att
-* Return : 0
-*/
-int main(int argc, __attribute__((unused))char **argv)
+ * main - prints the number of arguments passed into the program
+ * @argc: int
+ * @argv: list
+ * Return: 0
+ */
+
+int main(int argc, char const *argv[])
 {
-	printf("%d\n", argc - 1);
-	return (0);
+(void)argv;
+printf("%i\n", argc - 1);
+return (0);
 }
