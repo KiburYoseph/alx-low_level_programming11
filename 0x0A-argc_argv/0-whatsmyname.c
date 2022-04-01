@@ -1,5 +1,11 @@
 #include <stdio.h>
-int main(int argc, char *argv[])
+/**
+* main- Function
+*@argc: att
+*@argv: attr
+**/
+int main(__attribute__((unused)) int argc, char *argv[])
 {
 	printf("%s\n", argv[0]);
+	return (0);
 }
