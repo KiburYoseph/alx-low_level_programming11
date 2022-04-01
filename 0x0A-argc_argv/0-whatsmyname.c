@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
 * main- Function
-*@argc: att
-*@argv: attr
+* @argc: att
+* @argv: attr
 **/
 int main(__attribute__((unused)) int argc, char *argv[])
 {
