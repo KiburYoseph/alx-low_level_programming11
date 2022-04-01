@@ -2,7 +2,7 @@
 /**
 * main- Function
 * @argc: att
-* @argv: attr
+* @*argv: attr
 **/
 int main(__attribute__((unused)) int argc, char *argv[])
 {
