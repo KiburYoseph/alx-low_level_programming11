@@ -1,4 +1,4 @@
-# include "main.h"
+#include "holberton.h"
 
 /**
  * print_alphabet - Entry point
@@ -13,6 +13,8 @@ void print_alphabet(void)
 	{
 		_putchar(c);
 		c++;
+
 	}
 	_putchar('\n');
+
 }
